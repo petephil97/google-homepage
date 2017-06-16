@@ -1,0 +1,47 @@
+* {
+   font-family: arial, sans-serif;
+   font-size: 15px;
+   text-decoration: none;
+   color: black;
+}
+
+.logo img {
+   display: block;
+   margin: 200px auto 25px auto;
+   height: 92px;
+   width: 272px;
+}
+.submit {
+   width: 500px;
+   margin: 0 auto;
+}
+.submit input {
+   height: auto;
+   width: 100%;
+   margin-bottom: 25px;
+   padding: 12px;
+   text-align: left;
+   border: 1px solid silver;
+   box-sizing: border-box;
+   box-shadow: 1px 2px 2px silver;
+}
+.search, .lucky {
+   height: 40px;
+   width: 150px;
+   color: gray;
+   border: none;
+   background-color: #e5e5e5;
+   border-radius: 2px;
+   font-weight: bold;
+}
+.search {
+   margin: 20px 10px 20px 80px;
+}
+.lucky {
+   margin: 20px 80px 20px 10px;
+}
+.search:hover, .lucky:hover {
+   border: 2px solid grey;
+   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+   color: black;
+}
