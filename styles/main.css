@@ -4,12 +4,34 @@
    text-decoration: none;
    color: black;
 }
-
-.logo img {
+nav img {
+   height: 23px;
+   width: 23px;
+   margin-top: 0px;
+}
+nav ul {
+   list-style-type: none;
+   float: right;
+   text-align: right;
+   padding: 5px;
+   margin: 10px;
+}
+li {
+   float: left;
    display: block;
-   margin: 200px auto 25px auto;
-   height: 92px;
+   margin-right: 15px;
+   margin-bottom: 3px;
+}
+li a:hover {
+   text-decoration: underline;
+}
+.logo {
+   text-align: center;
+   padding-top: 150px;
+}
+.logo img {
    width: 272px;
+   margin-bottom: 25px;
 }
 .submit {
    width: 500px;
@@ -44,4 +66,28 @@
    border: 2px solid grey;
    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
    color: black;
+}
+footer {
+   position: fixed;
+   bottom: 0;
+   border-top: 1px solid #e4e4e4;
+   width: 100%;
+   background-color: #f2f2f2;
+   height: 50px;
+}
+footer ul {
+   list-style-type: none;
+   padding: 5px;
+}
+footer a {
+   font-size: 14px;
+   color: grey;
+}
+.footer-left {
+   float: left;
+   margin-left: 15px;
+}
+.footer-right {
+   float: right;
+   margin-right: 15px;
 }
