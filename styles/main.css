@@ -68,12 +68,13 @@ li a:hover {
    color: black;
 }
 footer {
-   position: fixed;
+   position: absolute;
    bottom: 0;
    border-top: 1px solid #e4e4e4;
    width: 100%;
    background-color: #f2f2f2;
-   height: 50px;
+   line-height: 2px;
+   height: 40px;
 }
 footer ul {
    list-style-type: none;
